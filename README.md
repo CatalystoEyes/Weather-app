@@ -1,3 +1,3 @@
-npm i
-npm run build:dev
-npm run start
+- npm i
+- npm run build:dev
+- npm run start
