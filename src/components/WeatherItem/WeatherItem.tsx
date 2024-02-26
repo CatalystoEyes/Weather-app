@@ -10,7 +10,7 @@ const WeatherItem = () => {
 
     const searchWeather = (city: string) => {
         const fetchData = async () => {
-            const url = `https://api.tomorrow.io/v4/weather/realtime?location=${city}&apikey=XWAZ14a13bOJ5dDrbwHV6R5DB48D279T`
+            const url = `https://api.tomorrow.io/v4/weather/realtime?location=${city}&apikey=your_api`
             try {
                 const response = await axios.get(url);
                 setWeatherData(response.data)
