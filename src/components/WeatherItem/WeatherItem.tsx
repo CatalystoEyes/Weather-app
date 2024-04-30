@@ -59,7 +59,6 @@ const WeatherItem = () => {
                         </Button>
                     </form>
                 </Box>
-
             </Box>
             <WeatherInfo weatherData={weatherData} />
         </>
